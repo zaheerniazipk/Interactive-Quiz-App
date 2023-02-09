@@ -1,0 +1,92 @@
+@import url("http://fonts.googleapis.com/css?family=Rokkitt");
+
+/********** GLOBAL ELEMENTS **********/
+
+html {
+  font-family: "Rokkitt", serif;
+  background-color: #111;
+}
+
+/********** REUSABLE ELEMENTS **********/
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 2em;
+  color: #feb135;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 2em;
+  border: 0px;
+  cursor: pointer;
+}
+
+/********** QUIZ CONTAINER CLASSES **********/
+
+.quizContainer {
+  background-color: #000398;
+  width: 75%;
+  margin: auto;
+  margin-top: 190px;
+  border-radius: 8px;
+  padding-top: 5px;
+  position: relative;
+}
+
+.nextButton,
+.question,
+.result,
+.quizMessage {
+  text-align: center;
+  margin: auto;
+  border-radius: 6px;
+}
+
+.nextButton {
+  width: 150px;
+  height: 40px;
+  background-color: #cc0000;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.question {
+  font-size: 2em;
+  width: 90%;
+  height: auto;
+  background-color: #f2f205;
+  color: #333;
+}
+
+.quizMessage {
+  background-color: peachpuff;
+  width: 30%;
+  padding: 2px;
+  color: red;
+}
+
+.choiceList {
+  color: blueviolet;
+}
+
+.result {
+  width: 30%;
+  height: auto;
+  background-color: linen;
+  margin-bottom: 35px;
+  color: red;
+}
+/* End of Quiz Classes */
